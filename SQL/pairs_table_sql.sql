@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS Market_Pairs(
     collected_at datetime, #데이터베이스에 들어온 시간 !
     korean_name varchar(100), #한국 이름 !
     english_name varchar(100), #영어 이름 !
-    market_event BOOLEAN #이벤트의 유무 !
+    market_event BOOLEAN, #이벤트의 유무 !
     event_warning BOOLEAN, #종목 경보 여부 !
     event_caution BOOLEAN, #주의 종목 여부
     event_caution_price_fluctuations BOOLEAN, #가격급등락경보 !
